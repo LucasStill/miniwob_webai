@@ -44,7 +44,63 @@ This repository contains the code for my master thesis titled "Navigating WebAI:
 ### vocab.txt
 - Description: The vocabulary file used for language modeling and training the autonomous agents.
 
+
+
+
+## Training files, prototypes and remote inference notebooks:
+
+### LoadT5 Test.ipynb
+- Description: This Jupyter Notebook is used for testing the loading and implementation of the T5 model for web navigation tasks.
+
+### Model Inference CC_NeT5.ipynb
+- Description: This Jupyter Notebook showcases the implementation of model inference for the CC_NeT5 model, enabling the autonomous agent to make predictions during web navigation.
+
+### Selenium agent.ipynb
+- Description: This Jupyter Notebook tests the use of Selenium library to create an autonomous agent for web navigation.
+
+### T5 Last action clean.ipynb
+- Description: This Jupyter Notebook focuses on cleaning and processing the last action data for the T5 model during web navigation tasks.
+
+### T5 Training.ipynb
+- Description: This Jupyter Notebook provides the implementation of training the T5 model for web navigation tasks.
+
+### T5Train2.ipynb
+- Description: This Jupyter Notebook presents an alternative implementation of training the T5 model, exploring different techniques and approaches.
+
+### T5_Dataset.ipynb
+- Description: This Jupyter Notebook includes the creation and handling of datasets specifically tailored for training the T5 model for web navigation.
+
+### T5_Training.ipynb
+- Description: Another Jupyter Notebook dedicated to the training of the T5 model, focusing on optimizing its performance for web navigation tasks.
+
+### T5_hierarchy.ipynb
+- Description: This Jupyter Notebook explores the hierarchical structure of the T5 model and its implications for web navigation tasks.
+
+### T5_hierarchy2.ipynb
+- Description: An additional Jupyter Notebook investigating the hierarchical aspects of the T5 model for improved web navigation.
+
+### Task Indices Layout.ipynb
+- Description: This Jupyter Notebook provides the layout and organization of task indices used during web navigation tasks.
+
+### finetune_miniwob.ipynb
+- Description: This Jupyter Notebook focuses on fine-tuning the T5 model specifically for Miniwob tasks during web navigation, initial test over miniwob.
+
+### finetuning_miniwob2.ipynb
+- Description: Another Jupyter Notebook dedicated to the fine-tuning of the T5 model for Miniwob tasks, exploring different techniques.
+
+### test_metrics.ipynb
+- Description: This Jupyter Notebook focuses on testing and evaluating the performance metrics of the trained models during web navigation tasks. We prototype different metrics.
+
+### trainminiwob3.ipynb
+- Description: This Jupyter Notebook provides the implementation of training the autonomous agents specifically for Miniwob tasks.
+
+## Miniwob
+Miniwob parameters to run the environments are included in the /miniwob folder and makes uses of the /viewer directory. Credits go to the Farama foundation with the original repository located at https://github.com/Farama-Foundation/miniwob-plusplus/tree/master 
+
+## Screenshots for training
+The recorded screenshots for the multimodal approach can be found in a separate repository at https://github.com/LucasStill/miniwob_zip
+
+
 Please refer to the individual files for more details on their implementation and usage.
 
 If you have any questions or feedback, feel free to reach out. Happy exploring and navigating the web using AI!
-
