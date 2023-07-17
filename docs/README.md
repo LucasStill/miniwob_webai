@@ -100,6 +100,11 @@ Miniwob parameters to run the environments are included in the /miniwob folder a
 ## Screenshots for training
 The recorded screenshots for the multimodal approach can be found in a separate repository at https://github.com/LucasStill/miniwob_zip
 
+## Weights
+The weights of the combined approach for T5H-large and the CC-Net inspired architecture after the first SL phase can be found here: 
+
+The weights regarding the final phase RL can be found here: https://drive.google.com/file/d/1ty4pBBQvv4b7JzDNL8Z1dv1bPICJmsRM/view?usp=drive_link
+
 
 Please refer to the individual files for more details on their implementation and usage.
 
